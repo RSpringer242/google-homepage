@@ -1,3 +1,5 @@
 # google-homepage 
 
-I am new to coding and i am enjoying it very much!
+google-homepage
+
+http://www.theodinproject.com/web-development-101/html-css?ref=lnav
