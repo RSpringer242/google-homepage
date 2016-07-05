@@ -1,0 +1,173 @@
+
+
+/****HTML element layouts*****/
+
+* {
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body {
+
+	font-family: arial, sans-serif;
+	
+}
+
+
+
+nav {
+
+	list-style-type: none;
+
+}
+
+a {
+
+	text-decoration: none;
+	color: #404040;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+
+
+/*****Top Navigation Bar-Header Layout*****/
+
+.header {
+
+
+}
+
+.nav {
+
+	float: right;
+	font-size: small;
+	
+}
+
+.nav li {
+
+	float:left;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+/*****Google Logo Layout*****/
+
+.logo {
+	margin: 0 auto ;
+	display: block;
+	margin-top: 10%;
+	
+}
+
+
+
+
+/*****Search Bar Layout*****/
+
+.search {
+
+	text-align: center;
+	margin-top: 15px;
+	border-bottom: 10px;
+	
+}
+
+
+.search-bar {
+
+	/***background-image: url("mic.gif");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 14px 19px;**/
+	display: inline-block;
+	width: 40%;
+	
+
+}
+
+
+/*****Buttons Layout*****/
+
+.button {
+
+	
+	display: inline-block;
+	width: 130px;
+	font-size:12px;
+
+
+	
+	
+}
+
+.buttons {
+
+	display: block;
+	
+	text-align: center;
+	margin-top: 15px;
+	border-radius-left: 0px;
+	border-radius-right: 0px;
+
+	
+
+
+}
+
+
+/*****Footer Layout*****/
+
+.footer {
+
+	position: fixed;
+	bottom: 0px;
+	height: 38px;
+	width: 100%;
+	background-color: #EFEFEF;
+	font-size: small;
+
+}
+
+.leftside {
+
+	width: 300px;
+	position: relative;
+	margin-top: 12px;
+	float: left;
+	margin-left: 20px;
+}
+
+.rightside {
+
+	width: 300px;
+	position: relative;
+	margin-top: 12px;
+	float: right;
+	margin-right: 20px;
+}
+
+
+
+.footwrap {
+
+	min-height: calc(100vh - 50px);
+}
+
+
+/*****Clearfix****/
+
+
+
+.clearfix::after {
+
+	content: "";
+	display: table;
+	clear: both;
+}
